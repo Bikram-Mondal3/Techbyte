@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Edubyte Chat Assistant",
+    "version": "1.0",
+    "description": "An AI-powered chat assistant built using Google Generative AI.",
+    "permissions": ["tabs", "activeTab", "scripting" , "storage"],
+    "host_permissions": [
+      "https://esm.run/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.jpg"
+    },
+    "content_security_policy": {
+     "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+}
+  
