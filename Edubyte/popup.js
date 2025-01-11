@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const chatHistory = document.getElementById("main-content");
 
   const genAI = new GoogleGenerativeAI(
-    "AIzaSyCAk4mkNVUtb3Fqi1SoU_a4y6r7_sWhxxs"
+    ""
   ); // Move this to backend
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
